@@ -4,8 +4,8 @@ const metrics = [
 
 export default function Home() {
   return (
-    <main>
-      <nav><a className="mark" href="#top"><span>O</span>ORBITAL/LAB</a><div><a href="#platform">Platform</a><a href="#missions">Missions</a><a href="#contact">Contact</a></div><a className="console" href="#platform">OPEN CONSOLE ↗</a></nav>
+    <main><div className="lang-float"><a className="active" href="/">EN</a><a href="/ru">RU</a></div>
+      <nav><a className="mark" href="#top"><span>O</span>ORBITAL/LAB</a><div><a href="/en/platform">Platform</a><a href="/en/missions">Missions</a><a href="#contact">Contact</a></div><a className="console" href="#platform">OPEN CONSOLE ↗</a></nav>
       <section className="hero" id="top">
         <div className="grid" aria-hidden="true"/>
         <div className="status"><i/> SYSTEMS NOMINAL <span>UTC 21:47:03</span></div>
